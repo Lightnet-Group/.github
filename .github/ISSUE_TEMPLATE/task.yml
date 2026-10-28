@@ -1,0 +1,36 @@
+name: Task / chore
+description: An internal work item, such as maintenance, refactoring or tooling.
+title: "[Task]: "
+labels: ["task"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What needs to be done and why?
+    validations:
+      required: true
+  - type: textarea
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Break the work down into subtasks.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: false
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      description: What has to be true for this task to be considered complete?
+    validations:
+      required: false
+  - type: input
+    id: related
+    attributes:
+      label: Related issues / links
+      placeholder: "#123, https://..."
+    validations:
+      required: false
