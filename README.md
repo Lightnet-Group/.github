@@ -21,4 +21,5 @@ To use different templates in a repository, add its own `.github/ISSUE_TEMPLATE`
 ### Notes
 
 - This repository must be **public**, and the templates must be on the **default branch**, for the defaults to apply.
+- Issues opened from a form are added to the org project [#9](https://github.com/orgs/Lightnet-Group/projects/9) automatically. This requires the author to have write access to the project; otherwise the issue is still created, just not added.
 - If a label such as `task` does not exist in a repository, GitHub skips it when the issue is created.

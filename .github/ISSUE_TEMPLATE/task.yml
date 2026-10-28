@@ -2,6 +2,7 @@ name: Task / chore
 description: An internal work item, such as maintenance, refactoring or tooling.
 title: "[Task]: "
 labels: ["task"]
+projects: ["Lightnet-Group/9"]
 body:
   - type: textarea
     id: description
