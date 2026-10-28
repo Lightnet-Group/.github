@@ -2,6 +2,7 @@ name: Bug report
 description: Report something that is broken or not working as expected.
 title: "[Bug]: "
 labels: ["bug"]
+projects: ["Lightnet-Group/9"]
 body:
   - type: markdown
     attributes:
